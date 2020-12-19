@@ -1,0 +1,19 @@
+    1  curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+    2  yum install gcc-c++ make
+    3  yum install nodejs
+    4  npm
+    5  clear
+    6  mkdir nodeproject
+    7  cd nodeproject/
+    8  vi package.json
+    9  npm install
+   10  vi server.js
+   11  vi dockerfile
+   12  ls
+   13  cat dockerfile 
+   14  docker build -t nodeapp .
+   15  ls
+   16  docker images
+   17  docker run nodeapp
+   18  vi dockerfile 
+   19  history > dockerrizingnodewithcommand.txt
